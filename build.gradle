@@ -24,3 +24,19 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+ext{
+    // Lifecycle
+    lifecycle_version = '2.0.0'
+
+    // Reactive
+    rxjava_version = '2.2.3'
+    rxandroid_version = '2.1.0'
+
+    // DB
+    room_version = '2.3.0'
+    debug_db_version = '1.0.6'
+
+    // Dagger
+    dagger_version = '2.24'
+
+}
